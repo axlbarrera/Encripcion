@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="esp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador y Desencriptador</title>
+    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="estilo/mobile.css">
+    <link rel="shortcut icon" href="imagenes/Chico.png" type="image/x-icon">
+</head>
+<body>
+     <main class="main container">
+         <header class="encabezado">
+           <img src="imagenes/Aluraicon.png" alt="Aluraicon">
+           <h1>Encripcion de Mensajes</h1>
+         </header>
+         <div class="container-input">
+         <div class="input">
+            <textarea  id="input-texto" placeholder="Digite su texto aquí..."></textarea>
+            <p>Unicamente letras minusculas y sin acénto!</p>
+        </div>
+
+
+         <div id="output">
+            <img src="imagenes/Chico.png" alt="logo Chico" height="330px" width="400px">
+            <h2>Tu mensaje aparecera aquí!</h2>
+           
+         </div>
+        </div>
+
+        
+         <div class="buttons">
+             <div class="container-bnt">
+                <button  onclick="encriptar()" class="btn-encriptar">Encriptar</button>
+                <button  onclick="desencriptar()" class="btn-desencriptar">Desencriptar</button>
+             </div>
+            
+         </div>
+     </main>
+
+     <footer class="piedepagina">
+        <div class="icons">
+        <a href="https://www.youtube.com"><ion-icon name="logo-youtube" ></ion-icon></a>
+        <a href="https://www.instagram.com"><ion-icon name="logo-instagram"></ion-icon></a>
+        <a href="https://github.com/axlbarrera"><ion-icon name="logo-github"></ion-icon></a>
+    </div>
+        <h3>Desarrollado por Alexander Barrera</h3>
+     </footer>
+
+     <script src="interaccion/script.js"></script>
+     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
